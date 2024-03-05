@@ -1,0 +1,54 @@
+/* Change this values to customize the banner and consent modal */
+
+#cc-main {
+  color-scheme: light;
+
+  --cc-bg: #f9faff;
+  --cc-primary-color: #112954;
+  --cc-secondary-color: #112954;
+
+  --cc-btn-primary-bg: #1B57FD;
+  --cc-btn-primary-color: var(--cc-bg);
+  --cc-btn-primary-hover-bg: #1F17FF;
+  --cc-btn-primary-hover-color: #fff;
+  --cc-btn-primary-border-color: none;
+
+  --cc-btn-secondary-bg: #dfe7f9;
+  --cc-btn-secondary-color: var(--cc-secondary-color);
+  --cc-btn-secondary-hover-bg: #c6d1ea;
+  --cc-btn-secondary-hover-color: #000;
+
+  --cc-cookie-category-block-bg: #ebeff9;
+  --cc-cookie-category-block-border: #ebeff9;
+  --cc-cookie-category-block-hover-bg: #dbe5f9;
+  --cc-cookie-category-block-hover-border: #dbe5f9;
+  --cc-cookie-category-expanded-block-hover-bg: #ebeff9;
+  --cc-cookie-category-expanded-block-bg: #ebeff9;
+
+  --cc-overlay-bg: #E9ECEF90!important;
+
+  --cc-toggle-readonly-bg: #cbd8f1;
+  --cc-toggle-on-knob-bg: var(--cc-bg);
+  --cc-toggle-off-bg: #cbd8f1;
+  --cc-toggle-on-bg: #1B57FD;
+  --cc-toggle-readonly-knob-bg: var(--cc-bg);
+
+  --cc-separator-border-color: #f1f3f5;
+
+  --cc-footer-border-color: #f1f3f5;
+  --cc-footer-bg: var(--cc-bg);
+
+  --cc-btn-border-radius: .4rem;
+  --cc-modal-border-radius: var(--cc-btn-border-radius);
+  --cc-pm-toggle-border-radius: 1rem;
+}
+
+.cc--light-funky #cc-main .toggle__icon:after {
+  border-radius: var(--cc-btn-border-radius);
+}
+
+.cc--light-funky #cc-main .cm__btn--close {
+  border-radius: var(--cc-btn-border-radius);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
